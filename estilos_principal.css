@@ -87,21 +87,25 @@ li:hover
 .Redes
 {
   display: flex;
+  align-items: center;
   background: #003545;
   justify-content: center;
-  padding: 30px 0 30px 0;
+  padding: 4vh 0 3vh 0;
+  height: 9vh;
+
 }
 
 .logo_Redes
 {
-  width: 50px;
-  height: 50px;
+  width: 3vw;
+  height: 3vw;
+
 
 }
 .logo_Redes:hover
 {
-  width: 55px;
-  height: 55px;
+  width: 4vw;
+  height: 4vw;
 
 }
 .Introduccion
@@ -138,6 +142,7 @@ li:hover
   height: 30vw;
   margin: 15vh 0 15vh 0;
   border-radius: 20px;
+  border: solid 2px #bbbbbb;
 }
 .Imagenes_introducción:hover
 {
@@ -154,8 +159,8 @@ li:hover
 {
 width: 50vw;
 padding: 15vh 3vw 15vh 3vw;
-
-border-radius: 150px;
+height: 130vh;
+border-radius: 10vw;
 
 }
 
@@ -189,4 +194,8 @@ border-radius: 150px;
   font-family: Quicksand;
   font-size: 1vw;
   padding-left: 30px;
+}
+.overfloat
+{
+  overflow:auto;
 }
