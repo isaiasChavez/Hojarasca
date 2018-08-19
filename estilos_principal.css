@@ -1,0 +1,14 @@
+
+.Redes
+{
+  display: flex;
+  background: #003545;
+  justify-content: center;
+  padding: 30px 0 30px 0;
+}
+
+.logo_Redes
+{
+  width: 50px;
+  height: 50px;
+}
