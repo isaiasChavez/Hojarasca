@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body
+{
+background: white;
+}
+.header
+{
+  display: flex;
+  flex-direction:column;
+  background: black;
+  color: white;
+  align-items: center;
+  justify-content:space-around;
+  width: auto;
+  padding: 30px 0 30px 0;
+
+}
+
+.logotipo
+{
+  position:relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+
+}
+
+.presentación{
+  display: flex;
+  flex-direction: column;
+  border: solid red 1px;
+  width: auto;
+}
+h1{
+  font-family: Lobster;
+  font-size: 5vw;
+}
+.Escritos_portada
+{
+  border: solid 1px;
+display: flex;
+justify-content: center;
+
+
+}
+.imagen_portada{
+
+  width: auto;
+  margin: 30px 30px 80px 30px;
+}
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+li
+{
+  width: 130px;
+}
