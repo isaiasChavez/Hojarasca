@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Lobster');
 
 body
 {
@@ -30,7 +30,7 @@ background: white;
 .presentación{
   display: flex;
   flex-direction: column;
-  border: solid red 1px;
+
   width: auto;
 }
 h1{
@@ -39,7 +39,7 @@ h1{
 }
 .Escritos_portada
 {
-  border: solid 1px;
+
 display: flex;
 justify-content: center;
 
@@ -75,4 +75,38 @@ li
   width: 50px;
   height: 50px;
 
+}
+.Introduccion
+{
+  display: flex;
+  flex-direction: column;
+  background: #00454a;
+  color: #f5fac7;
+
+}
+.Introduccion h3
+{
+  text-align: center;
+  font-family: "Baloo Bhai";
+  font-size: 3vw;
+
+}
+.Introduccion p
+{
+  text-align: center;
+  font-family: Lobster;
+  font-size: 1.5vw;
+}
+.Caja_Imagenes_introducción
+{
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.Imagenes_introducción
+{
+  width: 30vw;
+  height: 30vw;
+  border-radius: 20px;
 }
