@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Lobster|Quicksand');
 
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Lobster');
 
+a:link {text-decoration: none }
+a:hover { color: white;  text-decoration: none  }
+a:visited {color: white;  font-family: arial; text-decoration: none }
+a{
+  color: white;
+}
 body
 {
 background: white;
@@ -14,7 +20,7 @@ background: white;
   align-items: center;
   justify-content:space-around;
   width: auto;
-  padding: 30px 0 30px 0;
+  padding: 0px 0 30px 0;
 
 }
 
@@ -36,6 +42,8 @@ background: white;
 h1{
   font-family: Lobster;
   font-size: 5vw;
+  margin: 0;
+  padding-bottom:10vh;
 }
 .Escritos_portada
 {
@@ -60,7 +68,21 @@ ul{
 }
 li
 {
-  width: 130px;
+  width: 9vw;
+  padding: 10px;
+  margin: 30px;
+
+  text-align: center;
+  text-decoration:none;
+  color: black;
+  font-size: auto;
+  font-family: Lobster;
+}
+li:hover
+{
+  border-radius: 20px;
+  background: #5c636e;
+  border: solid #f5fac7 2px;
 }
 .Redes
 {
@@ -74,6 +96,12 @@ li
 {
   width: 50px;
   height: 50px;
+
+}
+.logo_Redes:hover
+{
+  width: 55px;
+  height: 55px;
 
 }
 .Introduccion
@@ -108,5 +136,57 @@ li
 {
   width: 30vw;
   height: 30vw;
+  margin: 15vh 0 15vh 0;
   border-radius: 20px;
+}
+.Imagenes_introducción:hover
+{
+  width: 32vw;
+  height: 32vw;
+}
+.Sobre_nosotros
+{
+  display: flex;
+  flex-direction: row;
+  background: #393e46;
+}
+.Imagen_sobre_nosotros
+{
+width: 50vw;
+padding: 15vh 3vw 15vh 3vw;
+
+border-radius: 150px;
+
+}
+
+.Texto_sobre_nosotros
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+
+
+}
+.texto_centrado
+{
+  text-align:center;
+  color: #f7f7f7;
+}
+.Texto_sobre_nosotros h3
+{
+  padding-top: 2vh;
+  font-family: "Baloo Bhai";
+  font-size: 3vw;
+}
+
+.Texto_sobre_nosotros h4
+{
+  font-family: "Lobster";
+  font-size: 2vw;
+}
+.Texto_sobre_nosotros p
+{
+  font-family: Quicksand;
+  font-size: 1vw;
+  padding-left: 30px;
 }
