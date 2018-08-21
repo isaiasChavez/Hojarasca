@@ -90,17 +90,19 @@ li:hover
   display: flex;
   align-items: center;
 
-  justify-content: center;
+  justify-content:center;
   padding: 4vh 0 3vh 0;
+
   height: 9vh;
 
 }
 
 .logo_Redes
 {
-  width: 3vw;
-  height: 3vw;
-
+  width: 2vw;
+  height: 2vw;
+  display: inline;
+  margin: 1vw;
 
 }
 .logo_Redes:hover
@@ -160,7 +162,7 @@ cursor: pointer;
 {
 width: 50vw;
 padding: 15vh 3vw 15vh 3vw;
-height: 130vh;
+height: 80%;
 border-radius: 10vw;
 
 }
@@ -273,4 +275,25 @@ footer
     align-items: center;
     justify-content: center;
     padding: 3vh 0 3vh 0;
+}
+.Tabla
+{
+  display: flex;
+  justify-content:center;
+  margin-bottom: 10vh;
+}
+
+th
+{
+  background: #007cc0;
+  color: white;
+  padding: 10px;
+}
+td
+{
+  padding: 20px;
+}
+.Contenedor_tabla,td,th{
+  border: solid 1px grey;
+  border-collapse: collapse;
 }
